@@ -6,8 +6,8 @@ A simple multiplayer chat room
 You can compile the server program as      
 **$ gcc chat_server.c -lpthread -o server**  
 then run as     
-**$ ./server <port>**  
+**$ ./server \<port\>**  
 Next,compile the client program as      
 **$ gcc chat_clnt.c -lpthread -o client**   
 then run as  
-**$ ./client 127.0.0.1 <IP> <Port> <YourName>**
+**$ ./client 127.0.0.1 \<IP\> \<Port\> \<YourName\>**
