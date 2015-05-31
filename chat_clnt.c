@@ -51,7 +51,7 @@ int main(int argc,char **argv)
 	serv_addr.sin_port=htons(atoi(argv[2]));
 	
 	memset((void*)name,0,sizeof(name));
-	sprintf(name,"[%s]",argv[3]);
+	sprintf(name,"[%s]:",argv[3]);
 
 	if(connect(clnt_sock,(struct sockaddr*)&serv_addr,sizeof(serv_addr))==-1)
 	{
